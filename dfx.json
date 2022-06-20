@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "cash_cow": {
+      "main": "src/cash_cow/main.mo",
+      "type": "motoko"
+    },
+    "cash_cow_assets": {
+      "dependencies": [
+        "cash_cow"
+      ],
+      "frontend": {
+        "entrypoint": "src/cash_cow_assets/src/index.html"
+      },
+      "source": [
+        "src/cash_cow_assets/assets",
+        "dist/cash_cow_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.9.3",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
