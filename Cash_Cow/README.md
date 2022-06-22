@@ -1,4 +1,4 @@
-# Defi Example
+# Defi 
 
 This repo contains a simple defi exchange that demonstrates the interaction with ICP and tokens on the IC. For a more detailed explanation check out the [architecture.md](architecture.md) file or visit the official [documentation](https://smartcontracts.org/docs/examples/defi.html)
 
