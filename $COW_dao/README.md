@@ -1,12 +1,7 @@
-# Basic DAO
-
-This sample project demonstrates a basic DAO 
+# Cash Cow DAO
+ DAO 
 ([Decentralized Autonomous Organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization)) 
-that can be deployed to the [Internet Computer](https://github.com/dfinity/ic).
-
-## Overview
-
-A `basic_dao` can be initialized with a set of accounts: mappings from principal IDs to an amount of tokens. 
+that can be deployed to the [Internet Computer](https://github.com/dfinity/ic). A `basic_dao` can be initialized with a set of accounts: mappings from principal IDs to an amount of tokens. 
 Account owners can query their account balance by calling `account_balance` and transfer tokens to other
 accounts by calling `transfer`. Anyone can call `list_accounts` to view all accounts. 
 
