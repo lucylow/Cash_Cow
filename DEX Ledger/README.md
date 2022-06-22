@@ -1,6 +1,4 @@
-# Ledger transfer
-
-This example demonstrates an application that transfer ICPs to its most active users.
+# $COW Ledger transfer
 
 ## Prerequisites
 
